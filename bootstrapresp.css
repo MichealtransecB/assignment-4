@@ -1,0 +1,83 @@
+/* Custom CSS for car Website */
+
+/* Body Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: blue; 
+  }
+  
+  /* Navigation Bar Styles */
+  .navbar {
+    background-color: navy; 
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    color: #ffffff; /* White */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff; /* White */
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: red; 
+  }
+  
+  /* Main Content Styles */
+  .container {
+    max-width: 800px;
+  }
+  
+  h1, h2 {
+    color: navy; 
+  }
+  
+  .card {
+    margin-bottom: 20px;
+    background-color: #ffffff; 
+    border: 1px solid blue;
+    border-radius: 10px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    color: blue; 
+  }
+  
+  .card-text {
+    color: navy; 
+  }
+  
+  /* Schedule Section */
+  .table {
+    margin-top: 20px;
+    background-color: red; 
+    border: 1px solid blue; 
+    border-radius: 10px;
+  }
+  
+  .table th,
+  .table td {
+    border: none;
+  }
+  
+  /* Location Section */
+  .map-container {
+    height: 300px;
+    border: 1px solid #dee2e6; 
+    border-radius: 10px;
+  }
+  
+  /* Custom CSS for Tech Conference Website */
+
+/* Body Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa; 
+    background-image: url('frsland.JPEG'); /* Replace 'your-background-image.jpg' with the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* This ensures the background image stays fixed while scrolling */
+  }
